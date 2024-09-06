@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "zy_banbif_lib_ui_ios",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(

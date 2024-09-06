@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'zy_banbif_lib_ui_ios'
-    s.version          = '0.0.1'
+    s.version          = '0.0.2'
     s.summary          = 'A short description of zy_banbif_lib_ui_ios.'
     
     # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/ZYTRUST/zy_banbif_lib_ui_ios.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
-    s.ios.deployment_target = '12.0'
+    s.ios.deployment_target = '13.0'
     
     #s.source_files = ['zy_banbif_lib_ui_ios/Classes/**/*', 'zy_banbif_lib_ui_ios/Classes/View/**/*']
     s.swift_versions   = '5.0'
