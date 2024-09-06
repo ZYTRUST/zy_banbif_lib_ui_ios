@@ -22,15 +22,15 @@
 		</data>
 		<key>Modules/zy_banbif_lib_ui_ios.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		o76ZaeGP5XuUgZngisCqCQGVpI8=
+		xVrcoF7BkemRS7SQ4Mg37+kSz8A=
 		</data>
 		<key>Modules/zy_banbif_lib_ui_ios.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		5wFM6E7RGz5R4UmXPszQHFTRG9I=
+		6ZSk6/zdY9ZeQFQRVgraxC/0Hdg=
 		</data>
 		<key>Modules/zy_banbif_lib_ui_ios.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		c3L+kwikb4eTImwfUvpfJrtxgzU=
+		MHLmNMF7yRSnObU/35egEQnqsDQ=
 		</data>
 		<key>Modules/zy_banbif_lib_ui_ios.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/zy_banbif_lib_ui_ios.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		c3L+kwikb4eTImwfUvpfJrtxgzU=
+		MHLmNMF7yRSnObU/35egEQnqsDQ=
 		</data>
 		<key>Modules/zy_banbif_lib_ui_ios.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -108,33 +108,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o76ZaeGP5XuUgZngisCqCQGVpI8=
+			xVrcoF7BkemRS7SQ4Mg37+kSz8A=
 			</data>
 			<key>hash2</key>
 			<data>
-			RTgJWI6VaMr3cOxW+1QcgZS2ISRSjb8iVCh4NKRFGVY=
+			/avivocqmupZI7G7VCp2lZ/jGL7RC3J/Khyl599kngg=
 			</data>
 		</dict>
 		<key>Modules/zy_banbif_lib_ui_ios.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5wFM6E7RGz5R4UmXPszQHFTRG9I=
+			6ZSk6/zdY9ZeQFQRVgraxC/0Hdg=
 			</data>
 			<key>hash2</key>
 			<data>
-			OIp78ad5eJz/DjWOzq3Y4wIvX0HBgDP9vAhhhx0+DNc=
+			9+Caboze5TXqanKSMwcmrDA/kVc3AOn/rraXYSq77Ok=
 			</data>
 		</dict>
 		<key>Modules/zy_banbif_lib_ui_ios.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c3L+kwikb4eTImwfUvpfJrtxgzU=
+			MHLmNMF7yRSnObU/35egEQnqsDQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZuIUC7JJ8LOX6edbzYTp8lAqiMuOzfHL3Bi/UZDfPeQ=
+			zqVRkRmW5mjQMjKA4Dbj11IeuZsGW6J7TVZK0DtY64Q=
 			</data>
 		</dict>
 		<key>Modules/zy_banbif_lib_ui_ios.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -185,11 +185,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c3L+kwikb4eTImwfUvpfJrtxgzU=
+			MHLmNMF7yRSnObU/35egEQnqsDQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZuIUC7JJ8LOX6edbzYTp8lAqiMuOzfHL3Bi/UZDfPeQ=
+			zqVRkRmW5mjQMjKA4Dbj11IeuZsGW6J7TVZK0DtY64Q=
 			</data>
 		</dict>
 		<key>Modules/zy_banbif_lib_ui_ios.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
