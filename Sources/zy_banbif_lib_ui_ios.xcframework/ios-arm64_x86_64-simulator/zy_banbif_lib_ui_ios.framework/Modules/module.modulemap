@@ -1,0 +1,11 @@
+framework module zy_banbif_lib_ui_ios {
+  umbrella header "zy_banbif_lib_ui_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module zy_banbif_lib_ui_ios.Swift {
+  header "zy_banbif_lib_ui_ios-Swift.h"
+  requires objc
+}

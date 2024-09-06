@@ -1,0 +1,4781 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ParentViewController",
+        "printedName": "ParentViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ParentViewController(im)viewDidLoad",
+            "mangledName": "$s20zy_banbif_lib_ui_ios20ParentViewControllerC11viewDidLoadyyF",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ParentViewController",
+                "printedName": "zy_banbif_lib_ui_ios.ParentViewController",
+                "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ParentViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ParentViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s20zy_banbif_lib_ui_ios20ParentViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "zy_banbif_lib_ui_ios.ParentViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ParentViewController",
+                    "printedName": "zy_banbif_lib_ui_ios.ParentViewController",
+                    "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ParentViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ParentViewController(im)initWithCoder:",
+            "mangledName": "$s20zy_banbif_lib_ui_ios20ParentViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ParentViewController",
+        "mangledName": "$s20zy_banbif_lib_ui_ios20ParentViewControllerC",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyApiUI",
+        "printedName": "ZyApiUI",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyApiUI",
+                "printedName": "zy_banbif_lib_ui_ios.ZyApiUI",
+                "usr": "s:20zy_banbif_lib_ui_ios7ZyApiUIC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20zy_banbif_lib_ui_ios7ZyApiUIC6onViewACSo16UIViewControllerC_tcfc",
+            "mangledName": "$s20zy_banbif_lib_ui_ios7ZyApiUIC6onViewACSo16UIViewControllerC_tcfc",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showConfirm",
+            "printedName": "showConfirm(request:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZyUIRequest",
+                "printedName": "zy_banbif_lib_ui_ios.ZyUIRequest",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(zy_banbif_lib_ui_ios.ZyUIConfirmResult<Swift.Bool, Swift.Bool, Swift.Bool>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUIConfirmResult",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIConfirmResult<Swift.Bool, Swift.Bool, Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:20zy_banbif_lib_ui_ios17ZyUIConfirmResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20zy_banbif_lib_ui_ios7ZyApiUIC11showConfirm7request10completionyAA0F9UIRequestV_yAA0F15UIConfirmResultOyS3bGctF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios7ZyApiUIC11showConfirm7request10completionyAA0F9UIRequestV_yAA0F15UIConfirmResultOyS3bGctF",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAlert",
+            "printedName": "showAlert(request:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZyUIRequest",
+                "printedName": "zy_banbif_lib_ui_ios.ZyUIRequest",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(zy_banbif_lib_ui_ios.ZyUIAlertResult<Swift.Bool>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUIAlertResult",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIAlertResult<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:20zy_banbif_lib_ui_ios15ZyUIAlertResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20zy_banbif_lib_ui_ios7ZyApiUIC9showAlert7request10completionyAA0F9UIRequestV_yAA0F13UIAlertResultOySbGctF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios7ZyApiUIC9showAlert7request10completionyAA0F9UIRequestV_yAA0F13UIAlertResultOySbGctF",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSteps",
+            "printedName": "showSteps(request:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZyStepsUIRequest",
+                "printedName": "zy_banbif_lib_ui_ios.ZyStepsUIRequest",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(zy_banbif_lib_ui_ios.ZyUIStepsResult<Swift.Bool, Swift.Bool>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUIStepsResult",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsResult<Swift.Bool, Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:20zy_banbif_lib_ui_ios15ZyUIStepsResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20zy_banbif_lib_ui_ios7ZyApiUIC9showSteps7request10completionyAA0fJ9UIRequestV_yAA0F13UIStepsResultOyS2bGctF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios7ZyApiUIC9showSteps7request10completionyAA0fJ9UIRequestV_yAA0F13UIStepsResultOyS2bGctF",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20zy_banbif_lib_ui_ios7ZyApiUIC",
+        "mangledName": "$s20zy_banbif_lib_ui_ios7ZyApiUIC",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreText",
+        "printedName": "CoreText",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FontLoader",
+        "printedName": "FontLoader",
+        "declKind": "Class",
+        "usr": "s:20zy_banbif_lib_ui_ios10FontLoaderC",
+        "mangledName": "$s20zy_banbif_lib_ui_ios10FontLoaderC",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyLoadingApiUI",
+        "printedName": "ZyLoadingApiUI",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyLoadingApiUI",
+                "printedName": "zy_banbif_lib_ui_ios.ZyLoadingApiUI",
+                "usr": "s:20zy_banbif_lib_ui_ios14ZyLoadingApiUIC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20zy_banbif_lib_ui_ios14ZyLoadingApiUIC6onViewACSo16UIViewControllerC_tcfc",
+            "mangledName": "$s20zy_banbif_lib_ui_ios14ZyLoadingApiUIC6onViewACSo16UIViewControllerC_tcfc",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showConfirm",
+            "printedName": "showConfirm(request:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZyUILoadingRequest",
+                "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingRequest",
+                "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(zy_banbif_lib_ui_ios.ZyUILoadingResult<Swift.Bool, Swift.Bool>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUILoadingResult",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingResult<Swift.Bool, Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:20zy_banbif_lib_ui_ios17ZyUILoadingResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20zy_banbif_lib_ui_ios14ZyLoadingApiUIC11showConfirm7request10completionyAA0F16UILoadingRequestV_yAA0fN6ResultOyS2bGctF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios14ZyLoadingApiUIC11showConfirm7request10completionyAA0F16UILoadingRequestV_yAA0fN6ResultOyS2bGctF",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20zy_banbif_lib_ui_ios14ZyLoadingApiUIC",
+        "mangledName": "$s20zy_banbif_lib_ui_ios14ZyLoadingApiUIC",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyUILoadingRequest",
+        "printedName": "ZyUILoadingRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyUILoadingRequest",
+                "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingRequest",
+                "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestVACycfc",
+            "mangledName": "$s20zy_banbif_lib_ui_ios18ZyUILoadingRequestVACycfc",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV7messageSSSgvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios18ZyUILoadingRequestV7messageSSSgvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV7messageSSSgvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios18ZyUILoadingRequestV7messageSSSgvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV7messageSSSgvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios18ZyUILoadingRequestV7messageSSSgvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV7messageSSSgvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios18ZyUILoadingRequestV7messageSSSgvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "animated",
+            "printedName": "animated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV8animatedSbvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios18ZyUILoadingRequestV8animatedSbvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV8animatedSbvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios18ZyUILoadingRequestV8animatedSbvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV8animatedSbvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios18ZyUILoadingRequestV8animatedSbvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV8animatedSbvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios18ZyUILoadingRequestV8animatedSbvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV",
+        "mangledName": "$s20zy_banbif_lib_ui_ios18ZyUILoadingRequestV",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyUILoadingResult",
+        "printedName": "ZyUILoadingResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ok",
+            "printedName": "ok",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1> (zy_banbif_lib_ui_ios.ZyUILoadingResult<τ_0_0, τ_0_1>.Type) -> (τ_0_0) -> zy_banbif_lib_ui_ios.ZyUILoadingResult<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> zy_banbif_lib_ui_ios.ZyUILoadingResult<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUILoadingResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios17ZyUILoadingResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingResult<τ_0_0, τ_0_1>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUILoadingResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios17ZyUILoadingResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20zy_banbif_lib_ui_ios17ZyUILoadingResultO2okyACyxq_GxcAEmr0_lF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios17ZyUILoadingResultO2okyACyxq_GxcAEmr0_lF",
+            "moduleName": "zy_banbif_lib_ui_ios"
+          },
+          {
+            "kind": "Var",
+            "name": "cancel",
+            "printedName": "cancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1> (zy_banbif_lib_ui_ios.ZyUILoadingResult<τ_0_0, τ_0_1>.Type) -> (τ_0_1) -> zy_banbif_lib_ui_ios.ZyUILoadingResult<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_1) -> zy_banbif_lib_ui_ios.ZyUILoadingResult<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUILoadingResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios17ZyUILoadingResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingResult<τ_0_0, τ_0_1>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUILoadingResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios17ZyUILoadingResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20zy_banbif_lib_ui_ios17ZyUILoadingResultO6cancelyACyxq_Gq_cAEmr0_lF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios17ZyUILoadingResultO6cancelyACyxq_Gq_cAEmr0_lF",
+            "moduleName": "zy_banbif_lib_ui_ios"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20zy_banbif_lib_ui_ios17ZyUILoadingResultO",
+        "mangledName": "$s20zy_banbif_lib_ui_ios17ZyUILoadingResultO",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<T, C>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyStepsUIRequest",
+        "printedName": "ZyStepsUIRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyStepsUIRequest",
+                "printedName": "zy_banbif_lib_ui_ios.ZyStepsUIRequest",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestVACycfc",
+            "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestVACycfc",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "psTypeFlow",
+            "printedName": "psTypeFlow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV10psTypeFlowSivp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV10psTypeFlowSivp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV10psTypeFlowSivg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV10psTypeFlowSivg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV10psTypeFlowSivs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV10psTypeFlowSivs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV10psTypeFlowSivM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV10psTypeFlowSivM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "psDescriptionTypeFlow",
+            "printedName": "psDescriptionTypeFlow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV21psDescriptionTypeFlowSSvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV21psDescriptionTypeFlowSSvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV21psDescriptionTypeFlowSSvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV21psDescriptionTypeFlowSSvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV21psDescriptionTypeFlowSSvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV21psDescriptionTypeFlowSSvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV21psDescriptionTypeFlowSSvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV21psDescriptionTypeFlowSSvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "psStepPositionNumber",
+            "printedName": "psStepPositionNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "psButtonContinueText",
+            "printedName": "psButtonContinueText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psButtonContinueTextSSvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psButtonContinueTextSSvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psButtonContinueTextSSvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psButtonContinueTextSSvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psButtonContinueTextSSvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psButtonContinueTextSSvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psButtonContinueTextSSvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psButtonContinueTextSSvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV",
+        "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyUIStepsResult",
+        "printedName": "ZyUIStepsResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ok",
+            "printedName": "ok",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1> (zy_banbif_lib_ui_ios.ZyUIStepsResult<τ_0_0, τ_0_1>.Type) -> (τ_0_0) -> zy_banbif_lib_ui_ios.ZyUIStepsResult<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> zy_banbif_lib_ui_ios.ZyUIStepsResult<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIStepsResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios15ZyUIStepsResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsResult<τ_0_0, τ_0_1>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIStepsResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios15ZyUIStepsResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20zy_banbif_lib_ui_ios15ZyUIStepsResultO2okyACyxq_GxcAEmr0_lF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUIStepsResultO2okyACyxq_GxcAEmr0_lF",
+            "moduleName": "zy_banbif_lib_ui_ios"
+          },
+          {
+            "kind": "Var",
+            "name": "cancel",
+            "printedName": "cancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1> (zy_banbif_lib_ui_ios.ZyUIStepsResult<τ_0_0, τ_0_1>.Type) -> (τ_0_1) -> zy_banbif_lib_ui_ios.ZyUIStepsResult<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_1) -> zy_banbif_lib_ui_ios.ZyUIStepsResult<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIStepsResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios15ZyUIStepsResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsResult<τ_0_0, τ_0_1>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIStepsResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios15ZyUIStepsResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20zy_banbif_lib_ui_ios15ZyUIStepsResultO6cancelyACyxq_Gq_cAEmr0_lF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUIStepsResultO6cancelyACyxq_Gq_cAEmr0_lF",
+            "moduleName": "zy_banbif_lib_ui_ios"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20zy_banbif_lib_ui_ios15ZyUIStepsResultO",
+        "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUIStepsResultO",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<T, C>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyUIStepsEnum",
+        "printedName": "ZyUIStepsEnum",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "START",
+            "printedName": "START",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(zy_banbif_lib_ui_ios.ZyUIStepsEnum.Type) -> zy_banbif_lib_ui_ios.ZyUIStepsEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUIStepsEnum",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsEnum",
+                    "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIStepsEnum",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsEnum",
+                        "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO5STARTyA2CmF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios13ZyUIStepsEnumO5STARTyA2CmF",
+            "moduleName": "zy_banbif_lib_ui_ios"
+          },
+          {
+            "kind": "Var",
+            "name": "OCR",
+            "printedName": "OCR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(zy_banbif_lib_ui_ios.ZyUIStepsEnum.Type) -> zy_banbif_lib_ui_ios.ZyUIStepsEnum",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUIStepsEnum",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsEnum",
+                    "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsEnum.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIStepsEnum",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsEnum",
+                        "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO3OCRyA2CmF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios13ZyUIStepsEnumO3OCRyA2CmF",
+            "moduleName": "zy_banbif_lib_ui_ios"
+          },
+          {
+            "kind": "Var",
+            "name": "descripcion",
+            "printedName": "descripcion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO11descripcionSSvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios13ZyUIStepsEnumO11descripcionSSvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO11descripcionSSvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios13ZyUIStepsEnumO11descripcionSSvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsEnum?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUIStepsEnum",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIStepsEnum",
+                    "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO8rawValueACSgSi_tcfc",
+            "mangledName": "$s20zy_banbif_lib_ui_ios13ZyUIStepsEnumO8rawValueACSgSi_tcfc",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO8rawValueSivp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios13ZyUIStepsEnumO8rawValueSivp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO8rawValueSivg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios13ZyUIStepsEnumO8rawValueSivg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20zy_banbif_lib_ui_ios13ZyUIStepsEnumO",
+        "mangledName": "$s20zy_banbif_lib_ui_ios13ZyUIStepsEnumO",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyUIRequest",
+        "printedName": "ZyUIRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyUIRequest",
+                "printedName": "zy_banbif_lib_ui_ios.ZyUIRequest",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestVACycfc",
+            "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestVACycfc",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV7messageSSSgvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV7messageSSSgvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV7messageSSSgvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV7messageSSSgvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV7messageSSSgvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV7messageSSSgvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV7messageSSSgvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV7messageSSSgvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV11descriptionSSSgvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV11descriptionSSSgvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV11descriptionSSSgvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV11descriptionSSSgvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV11descriptionSSSgvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV11descriptionSSSgvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV11descriptionSSSgvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV11descriptionSSSgvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lblOk",
+            "printedName": "lblOk",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV5lblOkSSSgvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV5lblOkSSSgvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV5lblOkSSSgvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV5lblOkSSSgvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV5lblOkSSSgvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV5lblOkSSSgvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV5lblOkSSSgvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV5lblOkSSSgvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "titleHexColorOk",
+            "printedName": "titleHexColorOk",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV15titleHexColorOkSSvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV15titleHexColorOkSSvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV15titleHexColorOkSSvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV15titleHexColorOkSSvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV15titleHexColorOkSSvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV15titleHexColorOkSSvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV15titleHexColorOkSSvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV15titleHexColorOkSSvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bgHexColorOk",
+            "printedName": "bgHexColorOk",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV12bgHexColorOkSSvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV12bgHexColorOkSSvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV12bgHexColorOkSSvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV12bgHexColorOkSSvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV12bgHexColorOkSSvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV12bgHexColorOkSSvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV12bgHexColorOkSSvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV12bgHexColorOkSSvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lblCancel2",
+            "printedName": "lblCancel2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV10lblCancel2SSSgvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV10lblCancel2SSSgvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV10lblCancel2SSSgvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV10lblCancel2SSSgvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV10lblCancel2SSSgvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV10lblCancel2SSSgvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV10lblCancel2SSSgvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV10lblCancel2SSSgvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "titleHexColorCancel",
+            "printedName": "titleHexColorCancel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV19titleHexColorCancelSSvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV19titleHexColorCancelSSvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV19titleHexColorCancelSSvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV19titleHexColorCancelSSvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV19titleHexColorCancelSSvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV19titleHexColorCancelSSvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV19titleHexColorCancelSSvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV19titleHexColorCancelSSvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bgHexColorCancel",
+            "printedName": "bgHexColorCancel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV16bgHexColorCancelSSvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV16bgHexColorCancelSSvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV16bgHexColorCancelSSvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV16bgHexColorCancelSSvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV16bgHexColorCancelSSvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV16bgHexColorCancelSSvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV16bgHexColorCancelSSvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV16bgHexColorCancelSSvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "animated",
+            "printedName": "animated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV8animatedSbvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV8animatedSbvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV8animatedSbvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV8animatedSbvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV8animatedSbvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV8animatedSbvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV8animatedSbvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV8animatedSbvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:20zy_banbif_lib_ui_ios11ZyUIRequestV",
+        "mangledName": "$s20zy_banbif_lib_ui_ios11ZyUIRequestV",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyUIConfirmResult",
+        "printedName": "ZyUIConfirmResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ok",
+            "printedName": "ok",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1, τ_0_2> (zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>.Type) -> (τ_0_0) -> zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIConfirmResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_2"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios17ZyUIConfirmResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIConfirmResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_2"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios17ZyUIConfirmResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20zy_banbif_lib_ui_ios17ZyUIConfirmResultO2okyACyxq_q0_GxcAEmr1_lF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios17ZyUIConfirmResultO2okyACyxq_q0_GxcAEmr1_lF",
+            "moduleName": "zy_banbif_lib_ui_ios"
+          },
+          {
+            "kind": "Var",
+            "name": "cancel",
+            "printedName": "cancel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1, τ_0_2> (zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>.Type) -> (τ_0_1) -> zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_1) -> zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIConfirmResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_2"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios17ZyUIConfirmResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIConfirmResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_2"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios17ZyUIConfirmResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20zy_banbif_lib_ui_ios17ZyUIConfirmResultO6cancelyACyxq_q0_Gq_cAEmr1_lF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios17ZyUIConfirmResultO6cancelyACyxq_q0_Gq_cAEmr1_lF",
+            "moduleName": "zy_banbif_lib_ui_ios"
+          },
+          {
+            "kind": "Var",
+            "name": "cancel_2",
+            "printedName": "cancel_2",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1, τ_0_2> (zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>.Type) -> (τ_0_2) -> zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_2) -> zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIConfirmResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_2"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios17ZyUIConfirmResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_2"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIConfirmResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIConfirmResult<τ_0_0, τ_0_1, τ_0_2>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_2"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios17ZyUIConfirmResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20zy_banbif_lib_ui_ios17ZyUIConfirmResultO8cancel_2yACyxq_q0_Gq0_cAEmr1_lF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios17ZyUIConfirmResultO8cancel_2yACyxq_q0_Gq0_cAEmr1_lF",
+            "moduleName": "zy_banbif_lib_ui_ios"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20zy_banbif_lib_ui_ios17ZyUIConfirmResultO",
+        "mangledName": "$s20zy_banbif_lib_ui_ios17ZyUIConfirmResultO",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "genericSig": "<τ_0_0, τ_0_1, τ_0_2>",
+        "sugared_genericSig": "<T, C, C2>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyUIAlertResult",
+        "printedName": "ZyUIAlertResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ok",
+            "printedName": "ok",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (zy_banbif_lib_ui_ios.ZyUIAlertResult<τ_0_0>.Type) -> (τ_0_0) -> zy_banbif_lib_ui_ios.ZyUIAlertResult<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> zy_banbif_lib_ui_ios.ZyUIAlertResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIAlertResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIAlertResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios15ZyUIAlertResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUIAlertResult<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUIAlertResult",
+                        "printedName": "zy_banbif_lib_ui_ios.ZyUIAlertResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:20zy_banbif_lib_ui_ios15ZyUIAlertResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:20zy_banbif_lib_ui_ios15ZyUIAlertResultO2okyACyxGxcAEmlF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUIAlertResultO2okyACyxGxcAEmlF",
+            "moduleName": "zy_banbif_lib_ui_ios"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:20zy_banbif_lib_ui_ios15ZyUIAlertResultO",
+        "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUIAlertResultO",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyUILoadingApi",
+        "printedName": "ZyUILoadingApi",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(onView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyUILoadingApi",
+                "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingApi",
+                "usr": "s:20zy_banbif_lib_ui_ios14ZyUILoadingApiC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:20zy_banbif_lib_ui_ios14ZyUILoadingApiC6onViewACSo16UIViewControllerC_tcfc",
+            "mangledName": "$s20zy_banbif_lib_ui_ios14ZyUILoadingApiC6onViewACSo16UIViewControllerC_tcfc",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showConfirm",
+            "printedName": "showConfirm(request:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZyUILoadingRequest",
+                "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingRequest",
+                "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(zy_banbif_lib_ui_ios.ZyUILoadingResult<Swift.Bool, Swift.Bool>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUILoadingResult",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingResult<Swift.Bool, Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:20zy_banbif_lib_ui_ios17ZyUILoadingResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20zy_banbif_lib_ui_ios14ZyUILoadingApiC11showConfirm7request10completionyAA0fG7RequestV_yAA0fG6ResultOyS2bGctF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios14ZyUILoadingApiC11showConfirm7request10completionyAA0fG7RequestV_yAA0fG6ResultOyS2bGctF",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ok",
+            "printedName": "ok(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20zy_banbif_lib_ui_ios14ZyUILoadingApiC2ok4dataySS_tF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios14ZyUILoadingApiC2ok4dataySS_tF",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20zy_banbif_lib_ui_ios14ZyUILoadingApiC6cancel4dataySS_tF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios14ZyUILoadingApiC6cancel4dataySS_tF",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:20zy_banbif_lib_ui_ios14ZyUILoadingApiC",
+        "mangledName": "$s20zy_banbif_lib_ui_ios14ZyUILoadingApiC",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ZyUILoadingDelegateProtocol",
+            "printedName": "ZyUILoadingDelegateProtocol",
+            "usr": "s:20zy_banbif_lib_ui_ios27ZyUILoadingDelegateProtocolP",
+            "mangledName": "$s20zy_banbif_lib_ui_ios27ZyUILoadingDelegateProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyUILoadingDelegateProtocol",
+        "printedName": "ZyUILoadingDelegateProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "ok",
+            "printedName": "ok(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20zy_banbif_lib_ui_ios27ZyUILoadingDelegateProtocolP2ok4dataySS_tF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios27ZyUILoadingDelegateProtocolP2ok4dataySS_tF",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "genericSig": "<τ_0_0 where τ_0_0 : zy_banbif_lib_ui_ios.ZyUILoadingDelegateProtocol>",
+            "sugared_genericSig": "<Self where Self : zy_banbif_lib_ui_ios.ZyUILoadingDelegateProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20zy_banbif_lib_ui_ios27ZyUILoadingDelegateProtocolP6cancel4dataySS_tF",
+            "mangledName": "$s20zy_banbif_lib_ui_ios27ZyUILoadingDelegateProtocolP6cancel4dataySS_tF",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "genericSig": "<τ_0_0 where τ_0_0 : zy_banbif_lib_ui_ios.ZyUILoadingDelegateProtocol>",
+            "sugared_genericSig": "<Self where Self : zy_banbif_lib_ui_ios.ZyUILoadingDelegateProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:20zy_banbif_lib_ui_ios27ZyUILoadingDelegateProtocolP",
+        "mangledName": "$s20zy_banbif_lib_ui_ios27ZyUILoadingDelegateProtocolP",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyUILoadingView",
+        "printedName": "ZyUILoadingView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "request",
+            "printedName": "request",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyUILoadingRequest",
+                "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingRequest",
+                "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC7requestAA0fG7RequestVvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC7requestAA0fG7RequestVvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUILoadingRequest",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingRequest",
+                    "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC7requestAA0fG7RequestVvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC7requestAA0fG7RequestVvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUILoadingRequest",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingRequest",
+                    "usr": "s:20zy_banbif_lib_ui_ios18ZyUILoadingRequestV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC7requestAA0fG7RequestVvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC7requestAA0fG7RequestVvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC7requestAA0fG7RequestVvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC7requestAA0fG7RequestVvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any zy_banbif_lib_ui_ios.ZyUILoadingDelegateProtocol)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUILoadingDelegateProtocol",
+                    "printedName": "any zy_banbif_lib_ui_ios.ZyUILoadingDelegateProtocol",
+                    "usr": "s:20zy_banbif_lib_ui_ios27ZyUILoadingDelegateProtocolP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC8delegateAA0fG16DelegateProtocol_pSgvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC8delegateAA0fG16DelegateProtocol_pSgvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any zy_banbif_lib_ui_ios.ZyUILoadingDelegateProtocol)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUILoadingDelegateProtocol",
+                        "printedName": "any zy_banbif_lib_ui_ios.ZyUILoadingDelegateProtocol",
+                        "usr": "s:20zy_banbif_lib_ui_ios27ZyUILoadingDelegateProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC8delegateAA0fG16DelegateProtocol_pSgvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC8delegateAA0fG16DelegateProtocol_pSgvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any zy_banbif_lib_ui_ios.ZyUILoadingDelegateProtocol)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyUILoadingDelegateProtocol",
+                        "printedName": "any zy_banbif_lib_ui_ios.ZyUILoadingDelegateProtocol",
+                        "usr": "s:20zy_banbif_lib_ui_ios27ZyUILoadingDelegateProtocolP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC8delegateAA0fG16DelegateProtocol_pSgvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC8delegateAA0fG16DelegateProtocol_pSgvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC8delegateAA0fG16DelegateProtocol_pSgvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC8delegateAA0fG16DelegateProtocol_pSgvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "myOrientation",
+            "printedName": "myOrientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC13myOrientationSo011UIInterfaceJ4MaskVvp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC13myOrientationSo011UIInterfaceJ4MaskVvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC13myOrientationSo011UIInterfaceJ4MaskVvg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC13myOrientationSo011UIInterfaceJ4MaskVvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC13myOrientationSo011UIInterfaceJ4MaskVvs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC13myOrientationSo011UIInterfaceJ4MaskVvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC13myOrientationSo011UIInterfaceJ4MaskVvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC13myOrientationSo011UIInterfaceJ4MaskVvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imvLoading",
+            "printedName": "imvLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIImageView?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(py)imvLoading",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC10imvLoadingSo07UIImageH0CSgvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIImageView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImageView",
+                        "printedName": "UIKit.UIImageView",
+                        "usr": "c:objc(cs)UIImageView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(im)imvLoading",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC10imvLoadingSo07UIImageH0CSgvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIImageView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImageView",
+                        "printedName": "UIKit.UIImageView",
+                        "usr": "c:objc(cs)UIImageView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(im)setImvLoading:",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC10imvLoadingSo07UIImageH0CSgvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC10imvLoadingSo07UIImageH0CSgvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC10imvLoadingSo07UIImageH0CSgvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "textUi",
+            "printedName": "textUi",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UILabel?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(py)textUi",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC6textUiSo7UILabelCSgvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "AccessControl",
+              "IBOutlet",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(im)textUi",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC6textUiSo7UILabelCSgvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UILabel?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UILabel",
+                        "printedName": "UIKit.UILabel",
+                        "usr": "c:objc(cs)UILabel"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(im)setTextUi:",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC6textUiSo7UILabelCSgvs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios15ZyUILoadingViewC6textUiSo7UILabelCSgvM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC6textUiSo7UILabelCSgvM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(im)viewDidLoad",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC11viewDidLoadyyF",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(py)supportedInterfaceOrientations",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "overriding": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(im)supportedInterfaceOrientations",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "overriding": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(py)shouldAutorotate",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC16shouldAutorotateSbvp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "overriding": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(im)shouldAutorotate",
+                "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC16shouldAutorotateSbvg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "overriding": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyUILoadingView",
+                "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingView",
+                "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(im)initWithNibName:bundle:",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyUILoadingView",
+                    "printedName": "zy_banbif_lib_ui_ios.ZyUILoadingView",
+                    "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView(im)initWithCoder:",
+            "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ZyUILoadingView",
+        "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@zy_banbif_lib_ui_ios@objc(cs)ParentViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "zy_banbif_lib_ui_ios.ParentViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIViewController",
+        "printedName": "UIViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showLoadingProgress",
+            "printedName": "showLoadingProgress(onView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UIViewControllerC20zy_banbif_lib_ui_iosE19showLoadingProgress6onViewSo0A0CAG_tFZ",
+            "mangledName": "$sSo16UIViewControllerC20zy_banbif_lib_ui_iosE19showLoadingProgress6onViewSo0A0CAG_tFZ",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideLoadingProgress",
+            "printedName": "hideLoadingProgress(loadingProgress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So16UIViewControllerC20zy_banbif_lib_ui_iosE19hideLoadingProgress07loadingJ0ySo0A0C_tFZ",
+            "mangledName": "$sSo16UIViewControllerC20zy_banbif_lib_ui_iosE19hideLoadingProgress07loadingJ0ySo0A0C_tFZ",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIViewController",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIViewController",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIResponder",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(hex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So7UIColorC20zy_banbif_lib_ui_iosE3hexABSgSS_tcfc",
+            "mangledName": "$sSo7UIColorC20zy_banbif_lib_ui_iosE3hexABSgSS_tcfc",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "pixel",
+            "printedName": "pixel(ofColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC20zy_banbif_lib_ui_iosE5pixel7ofColorABSo7UIColorC_tFZ",
+            "mangledName": "$sSo7UIImageC20zy_banbif_lib_ui_iosE5pixel7ofColorABSo7UIColorC_tFZ",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3567,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3744,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3919,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelLoadingUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 229,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
+      "kind": "StringLiteral",
+      "offset": 256,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 302,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 496,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 496,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 496,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelUI.swift",
+      "kind": "StringLiteral",
+      "offset": 297,
+      "length": 11,
+      "value": "\"#FFFFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelUI.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 11,
+      "value": "\"#925AF5FF\""
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelUI.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 11,
+      "value": "\"#925AF5FF\""
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelUI.swift",
+      "kind": "StringLiteral",
+      "offset": 492,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 554,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
