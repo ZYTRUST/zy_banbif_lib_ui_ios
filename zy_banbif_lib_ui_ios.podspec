@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
     s.name             = 'zy_banbif_lib_ui_ios'
-    s.version          = '0.1.1'
-    s.summary          = 'A short description of zy_banbif_lib_ui_ios.'
+    s.version          = '0.1.2'
+    s.summary          = 'Libreria UI Proeycto de bioemtria.'
     
     # This description is used to generate tags and improve search results.
     #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     #   * Finally, don't worry about the indent, CocoaPods strips it!
     
     s.description      = <<-DESC
-    TODO: Add long description of the pod here.
+    Libreria UI proyecto biometria empresa 11.
     DESC
     
     s.homepage         = 'https://www.zytrust.com'
@@ -34,17 +34,8 @@ Pod::Spec.new do |s|
     s.swift_versions   = '5.0'
 
     
-    #s.resource_bundles = {
-    #    'zy_banbif_lib_ui_ios' => ['zy_banbif_lib_ui_ios/Assets/**/*.{lproj,storyboard,xcassets,png}', 
-    #    'zy_banbif_lib_ui_ios/Assets/Resources/Fonts/**/*.ttf',
-    #    'zy_banbif_lib_ui_ios/Assets/Resources/Anim/*.json']
-    #}
-    
     s.static_framework = true
     
-    s.pod_target_xcconfig = {
-        'ONLY_ACTIVE_ARCH' => 'YES'
-    }
 
     s.vendored_frameworks = "Sources/zy_banbif_lib_ui_ios.xcframework"
 
