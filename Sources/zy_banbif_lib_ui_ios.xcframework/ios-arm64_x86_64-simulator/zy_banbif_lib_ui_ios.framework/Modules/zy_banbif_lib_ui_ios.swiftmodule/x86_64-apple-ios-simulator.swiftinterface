@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name zy_banbif_lib_ui_ios
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreText
 import Foundation
 import Lottie
@@ -15,13 +16,13 @@ extension UIKit.UIColor {
   convenience public init?(hex: Swift.String)
 }
 extension UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public class func showLoadingProgress(onView: UIKit.UIView) -> UIKit.UIView
-  @_Concurrency.MainActor(unsafe) public class func hideLoadingProgress(loadingProgress: UIKit.UIView)
+  @_Concurrency.MainActor @preconcurrency public class func showLoadingProgress(onView: UIKit.UIView) -> UIKit.UIView
+  @_Concurrency.MainActor @preconcurrency public class func hideLoadingProgress(loadingProgress: UIKit.UIView)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ParentViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class ParentViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension UIKit.UIImage {
@@ -110,21 +111,21 @@ public protocol ZyUILoadingDelegateProtocol {
   func ok(data: Swift.String)
   func cancel(data: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ZyUILoadingView : zy_banbif_lib_ui_ios.ParentViewController {
-  @_Concurrency.MainActor(unsafe) public var request: zy_banbif_lib_ui_ios.ZyUILoadingRequest
-  @_Concurrency.MainActor(unsafe) public var delegate: (any zy_banbif_lib_ui_ios.ZyUILoadingDelegateProtocol)?
-  @_Concurrency.MainActor(unsafe) public var myOrientation: UIKit.UIInterfaceOrientationMask
-  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var imvLoading: UIKit.UIImageView!
-  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var textUi: UIKit.UILabel!
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class ZyUILoadingView : zy_banbif_lib_ui_ios.ParentViewController {
+  @_Concurrency.MainActor @preconcurrency public var request: zy_banbif_lib_ui_ios.ZyUILoadingRequest
+  @_Concurrency.MainActor @preconcurrency public var delegate: (any zy_banbif_lib_ui_ios.ZyUILoadingDelegateProtocol)?
+  @_Concurrency.MainActor @preconcurrency public var myOrientation: UIKit.UIInterfaceOrientationMask
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var imvLoading: UIKit.UIImageView!
+  @objc @IBOutlet @_Concurrency.MainActor @preconcurrency weak public var textUi: UIKit.UILabel!
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var shouldAutorotate: Swift.Bool {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var shouldAutorotate: Swift.Bool {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension zy_banbif_lib_ui_ios.ZyUIStepsEnum : Swift.Equatable {}
