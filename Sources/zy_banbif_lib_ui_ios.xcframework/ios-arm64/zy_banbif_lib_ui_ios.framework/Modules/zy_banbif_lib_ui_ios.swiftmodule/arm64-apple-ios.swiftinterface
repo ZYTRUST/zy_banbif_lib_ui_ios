@@ -61,6 +61,7 @@ public struct ZyStepsUIRequest {
   public var psDescriptionTypeFlow: Swift.String
   public var psStepPositionNumber: Swift.Int
   public var psButtonContinueText: Swift.String
+  public var showSteps: Swift.Bool
 }
 public enum ZyUIStepsResult<T, C> {
   case ok(T)
