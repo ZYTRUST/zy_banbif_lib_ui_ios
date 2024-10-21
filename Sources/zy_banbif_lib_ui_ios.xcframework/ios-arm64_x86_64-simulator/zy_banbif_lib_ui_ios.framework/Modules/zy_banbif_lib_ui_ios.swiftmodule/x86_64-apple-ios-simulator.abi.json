@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "zy_banbif_lib_ui_ios",
+    "printedName": "zy_banbif_lib_ui_ios",
     "children": [
       {
         "kind": "Import",
@@ -63,6 +63,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -119,6 +120,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -160,6 +162,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -171,6 +174,7 @@
         "mangledName": "$s20zy_banbif_lib_ui_ios20ParentViewControllerC",
         "moduleName": "zy_banbif_lib_ui_ios",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -183,6 +187,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -511,6 +529,22 @@
         "moduleName": "zy_banbif_lib_ui_ios",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -541,7 +575,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -650,6 +700,22 @@
         "moduleName": "zy_banbif_lib_ui_ios",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -891,6 +957,22 @@
         "moduleName": "zy_banbif_lib_ui_ios",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1053,6 +1135,22 @@
         "sugared_genericSig": "<T, C>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1265,92 +1363,6 @@
           },
           {
             "kind": "Var",
-            "name": "psStepPositionNumber",
-            "printedName": "psStepPositionNumber",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivp",
-            "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivp",
-            "moduleName": "zy_banbif_lib_ui_ios",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivg",
-                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivg",
-                "moduleName": "zy_banbif_lib_ui_ios",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivs",
-                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivs",
-                "moduleName": "zy_banbif_lib_ui_ios",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivM",
-                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV20psStepPositionNumberSivM",
-                "moduleName": "zy_banbif_lib_ui_ios",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "psButtonContinueText",
             "printedName": "psButtonContinueText",
             "children": [
@@ -1437,19 +1449,19 @@
           },
           {
             "kind": "Var",
-            "name": "showSteps",
-            "printedName": "showSteps",
+            "name": "piStepCurrent",
+            "printedName": "piStepCurrent",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
             "declKind": "Var",
-            "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV04showG0Sbvp",
-            "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV04showG0Sbvp",
+            "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV13piStepCurrentSivp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV13piStepCurrentSivp",
             "moduleName": "zy_banbif_lib_ui_ios",
             "declAttributes": [
               "HasInitialValue",
@@ -1465,14 +1477,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV04showG0Sbvg",
-                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV04showG0Sbvg",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV13piStepCurrentSivg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV13piStepCurrentSivg",
                 "moduleName": "zy_banbif_lib_ui_ios",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1489,14 +1501,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV04showG0Sbvs",
-                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV04showG0Sbvs",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV13piStepCurrentSivs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV13piStepCurrentSivs",
                 "moduleName": "zy_banbif_lib_ui_ios",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1513,8 +1525,94 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV04showG0SbvM",
-                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV04showG0SbvM",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV13piStepCurrentSivM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV13piStepCurrentSivM",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "piStepsTotal",
+            "printedName": "piStepsTotal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV02piG5TotalSivp",
+            "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV02piG5TotalSivp",
+            "moduleName": "zy_banbif_lib_ui_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV02piG5TotalSivg",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV02piG5TotalSivg",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV02piG5TotalSivs",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV02piG5TotalSivs",
+                "moduleName": "zy_banbif_lib_ui_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20zy_banbif_lib_ui_ios16ZyStepsUIRequestV02piG5TotalSivM",
+                "mangledName": "$s20zy_banbif_lib_ui_ios16ZyStepsUIRequestV02piG5TotalSivM",
                 "moduleName": "zy_banbif_lib_ui_ios",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1528,6 +1626,22 @@
         "moduleName": "zy_banbif_lib_ui_ios",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1690,6 +1804,22 @@
         "sugared_genericSig": "<T, C>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1893,6 +2023,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2845,6 +2989,22 @@
         "moduleName": "zy_banbif_lib_ui_ios",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3110,6 +3270,22 @@
         "sugared_genericSig": "<T, C, C2>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3189,6 +3365,22 @@
         "sugared_genericSig": "<T>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3225,6 +3417,26 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "zy_banbif_lib_ui_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "zy_banbif_lib_ui_ios",
         "declAttributes": [
@@ -3394,6 +3606,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ZyUILoadingDelegateProtocol",
             "printedName": "ZyUILoadingDelegateProtocol",
             "usr": "s:20zy_banbif_lib_ui_ios27ZyUILoadingDelegateProtocolP",
@@ -3485,6 +3711,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3510,8 +3752,9 @@
             "moduleName": "zy_banbif_lib_ui_ios",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3605,8 +3848,9 @@
             "moduleName": "zy_banbif_lib_ui_ios",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3708,8 +3952,9 @@
             "moduleName": "zy_banbif_lib_ui_ios",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3794,8 +4039,9 @@
             "moduleName": "zy_banbif_lib_ui_ios",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -3906,8 +4152,9 @@
             "moduleName": "zy_banbif_lib_ui_ios",
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "ReferenceOwnership",
               "AccessControl",
               "IBOutlet",
@@ -4021,6 +4268,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4048,6 +4296,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4100,6 +4349,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4181,6 +4431,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -4222,6 +4473,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required"
             ],
@@ -4233,6 +4485,7 @@
         "mangledName": "$s20zy_banbif_lib_ui_ios15ZyUILoadingViewC",
         "moduleName": "zy_banbif_lib_ui_ios",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -4246,6 +4499,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4360,6 +4627,7 @@
             "moduleName": "zy_banbif_lib_ui_ios",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4389,6 +4657,7 @@
             "moduleName": "zy_banbif_lib_ui_ios",
             "static": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4403,6 +4672,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UIViewController",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -4417,6 +4687,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4548,6 +4832,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4670,6 +4968,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4733,21 +5045,21 @@
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 3549,
+      "offset": 4038,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 3726,
+      "offset": 4215,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/Extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 3901,
+      "offset": 4390,
       "length": 2,
       "value": "20"
     },
@@ -4774,64 +5086,36 @@
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
-      "kind": "IntegerLiteral",
-      "offset": 302,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
       "kind": "StringLiteral",
-      "offset": 350,
+      "offset": 305,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
-      "kind": "BooleanLiteral",
-      "offset": 386,
-      "length": 4,
-      "value": "true"
+      "kind": "IntegerLiteral",
+      "offset": 344,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
       "kind": "IntegerLiteral",
-      "offset": 518,
+      "offset": 381,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 509,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
       "kind": "IntegerLiteral",
-      "offset": 535,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
-      "kind": "IntegerLiteral",
-      "offset": 518,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
-      "kind": "IntegerLiteral",
-      "offset": 535,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
-      "kind": "IntegerLiteral",
-      "offset": 518,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyModelStepsUI.swift",
-      "kind": "IntegerLiteral",
-      "offset": 535,
+      "offset": 526,
       "length": 1,
       "value": "2"
     },
@@ -4869,6 +5153,62 @@
       "offset": 554,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/View\/UIView\/ZyUIIndicadorControlView.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 26,
+      "value": "\"ZyUIIndicadorControlView\""
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/View\/UIView\/ZyUIIndicadorControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/View\/UIView\/ZyUIIndicadorControlView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 435,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/View\/UIView\/ZyUIIndicadorControlView.swift",
+      "kind": "FloatLiteral",
+      "offset": 497,
+      "length": 4,
+      "value": "28.0"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/View\/UIView\/ZyUIIndicadorSeparatorView.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 28,
+      "value": "\"ZyUIIndicadorSeparatorView\""
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/View\/UIView\/ZyUIIndicadorSeparatorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 430,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/View\/UIView\/ZyUIIndicadorSeparatorView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 469,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/banbif\/ios\/zy_banbif_lib_ui_ios\/zy_banbif_lib_ui_ios\/Classes\/ZyUILoadingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1718,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
